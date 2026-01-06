@@ -1,0 +1,9 @@
+{
+  "name": "bookkeeping-landing-page",
+  "version": "1.0.0",
+  "description": "Professional Bookkeeping Services Landing Page",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "deploy": "vercel --prod"
+  }
+}
