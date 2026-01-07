@@ -1,9 +1,10 @@
 {
-  "name": "bookkeeping-landing-page",
+  "name": "kidaflow-landing-page",
   "version": "1.0.0",
-  "description": "Professional Bookkeeping Services Landing Page",
+  "description": "KiDaFlow AI Automation Landing Page",
   "scripts": {
-    "dev": "python -m http.server 3000",
+    "start": "node server.js",
+    "dev": "node server.js",
     "deploy": "vercel --prod"
   }
 }
